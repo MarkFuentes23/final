@@ -1,0 +1,136 @@
+body {
+  font-family: "Rokkitt", serif;
+  background-color: #f8f9fa;
+}
+.container {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+h2 {
+  margin-bottom: 20px;
+  color: #343a40;
+}
+.callout {
+  padding: 20px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.badge {
+  font-size: 1.1em;
+}
+.form-control {
+  border-radius: 0.25rem;
+}
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 0.25rem;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.left-side,
+.right-side {
+  flex: 1;
+  margin-right: 50px; /* Space between left and right */
+  padding-left: 50px;
+  margin-bottom: 20px;
+  padding-right: 50px;
+}
+.right-side {
+  margin-right: 0; /* Remove right margin from the right side */
+}
+.reservation-id {
+  margin-bottom: 40px; /* Added bottom margin to Reservation ID */
+}
+.status {
+  padding-left: 50px;
+}
+
+.btn-primary1 {
+  width: 200px; /* Keep the adjusted size */
+  padding: 10px; /* Reduce padding slightly */
+  font-size: 16px; /* Slightly smaller font size */
+  border-radius: 4px; /* Less rounded corners */
+  background-color: #3cb371; /* Solid background color */
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: none; /* Remove shadow */
+  transition: background-color 0.3s ease; /* Simple color transition */
+  margin-top: 10px;
+}
+
+.btn-primary1:hover {
+  background-color: #2ca657; /* Slightly darker on hover */
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  transition: all 0.3s ease;
+  font-family: "Rokkitt";
+  padding: 12px; /* Increased padding for larger input fields */
+}
+/* Reservation ID */
+.reservation-id-box {
+  border: 2px solid #007bff; /* Blue border */
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* Reference Number */
+.reference-number-box {
+  border: 2px dashed #28a745; /* Green dashed border */
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* Order Details */
+.order-details-box {
+  border: 2px dotted #ffc107; /* Yellow dotted border */
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* Supplies Information */
+.supplies-information-box {
+  border: 2px solid #17a2b8; /* Cyan solid border */
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* Status */
+.status-box {
+  border: 2px double #dc3545; /* Red double border */
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.status-section {
+  display: flex; /* Enable flexbox layout */
+  justify-content: space-between; /* Space items to align on opposite sides */
+  align-items: center; /* Center items vertically */
+  margin-top: 20px; /* Space above the status section */
+}
+
+.status,
+.status-updated-at {
+  flex: 1; /* Allow both sections to grow equally */
+  margin: 0; /* Remove default margins */
+}
+
+.status-updated-at {
+  text-align: right;
+  padding-right: 20px; /* Align text in the Status Updated At section to the right */
+}
